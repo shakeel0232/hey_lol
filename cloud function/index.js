@@ -7,6 +7,7 @@ admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://heylol-c9d36.firebaseio.com"
 });
+
 const db = admin.firestore();
 var listdata = [];
 let videoRef;
